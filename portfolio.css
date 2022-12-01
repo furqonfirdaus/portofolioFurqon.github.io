@@ -1,0 +1,115 @@
+body
+{
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1
+{
+  margin: 0;
+}
+
+h2
+{
+  background-color: rgb(165, 128, 59);
+  display: inline-block;
+  border-radius: 8px;
+}
+
+header
+{
+  background-color: tomato;
+  color: white;
+}
+
+main
+{
+  background-color: white;
+}
+
+.container
+{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.sidebar
+{
+  width: 300px;
+  background-color: #212530;
+  padding: 50px 0;
+  float: left;
+}
+
+.sidebar img
+{
+  width: 100%;
+}
+
+.content
+{
+  float: left;
+  width: 500px;
+  padding: 50px 50px;
+  box-sizing: border-box;
+}
+
+.clearfix
+{
+  content : "";
+  clear: both;
+  display : table;
+}
+
+.float-50
+{
+  float: left;
+  width: 50%;
+}
+
+.float-40
+{
+  float: left;
+  width: 40%;
+}
+
+.float-60
+{
+  float: left;
+  width: 60%;
+}
+
+.mb-1
+{
+  margin-bottom: 1.5rem;
+}
+
+.mt-2
+{
+  margin-top: 3rem;
+}
+
+main .sidebar
+{
+  background-color: tomato;
+  padding: 50px 50px;
+  box-sizing: border-box;
+}
+
+ul
+{
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-left: 20px;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.skills
+{
+  font-size: 1.2rem;
+}
