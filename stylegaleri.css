@@ -105,7 +105,7 @@ h1 {
   grid-row-start: 11;
   grid-row-end: 11;
 }
-
+/* responsifnya */
 @media (max-width: 600px) {
   .gallery_container {
     grid-gap: 0.5em;
